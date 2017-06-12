@@ -1,11 +1,11 @@
 {
-  "name": "startbootstrap-sb-admin-2",
-  "homepage": "http://startbootstrap.com/template-overviews/sb-admin-2/",
+  "name": "bootstrap-promovis-admin-2",
+  "homepage": "http://promovis.ro",
   "version": "3.3.7+1",
   "authors": [
-    "David Miller"
+    "Promovis"
   ],
-  "description": "A free, open source, Bootstrap admin theme created by Start Bootstrap",
+  "description": "Bootstrap theme created by Promovis",
   "keywords": [
     "bootstrap",
     "theme"
@@ -35,7 +35,6 @@
     "font-awesome": "~4.6.3",
     "holderjs": "~2.4.1",
     "metisMenu": "~1.1.3",
-    "morrisjs": "~0.5.1",
     "datatables-responsive": "1.0.6",
     "bootstrap-social": "~4.8.0",
     "flot.tooltip": "~0.8.4"
