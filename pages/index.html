@@ -1,197 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
     <title>Mobila LUTSCH - magazin de mobila Sebes - Alba</title>
-
     <!-- Bootstrap Core CSS -->
     <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
     <!-- MetisMenu CSS -->
     <link href="../vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
-
     <!-- Custom CSS -->
     <link href="../dist/css/sb-admin-2.css" rel="stylesheet">
-
     <!-- Custom Fonts -->
     <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+<!-- jQuery -->
+    <script src="../vendor/jquery/jquery.min.js"></script>
+    <script>
+        $(function(){
+        $("#head").load("_head.html"); 
+        $("#foot").load("_foot.html"); 
+        });  
+    </script>
 </head>
-
 <body>
-
-    <div id="wrapper">
-
-        <!-- Navigation -->
-        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" rel="home" title="Mobila LUTSCH" href="index.html">
-                    <img src="../dist/img/logo-mobila-lutsch.png" style="max-width: 100px; margin-top: -5px;">
-                    Mobila LUTSCH
-                </a>
-            </div>
-            <!-- /.navbar-header -->
-            <!-- navbar-top-links upper menu right -->
-            <ul class="nav navbar-top-links navbar-right">
-                <li>
-                    <a href="index.html">Home <i class="fa fa-home"></i></a>
-                </li>
-                <li>
-                    <a href="despre-noi.html">Despre noi <i class="fa fa-user"></i></a>
-                </li>
-                <li><a href="contact.html">Contact <i class="fa fa-envelope"></i></a>       
-                </li>
-            </ul>
-            <!-- /.navbar-top-links -->
-
-            <div class="navbar-default sidebar" role="navigation">
-                <div class="sidebar-nav navbar-collapse">
-                    <ul class="nav" id="side-menu">
-                        <li class="sidebar-search">
-                            <div class="input-group custom-search-form">
-                                <input type="text" class="form-control" placeholder="Poate dispare de aici...">
-                                <span class="input-group-btn">
-                                <button class="btn btn-default" type="button">
-                                    <i class="fa fa-search"></i>
-                                </button>
-                            </span>
-                            </div>
-                            <!-- /input-group -->
-                        </li>
-                        <li>
-                            <a href="dormitoare-lutsch.html"><i class="fa fa-dashboard fa-fw"></i> Dormitoare</a>
-                        </li>
-                       <li>
-                            <a href="sufragerie-lutsch.html"><i class="fa fa-dashboard fa-fw"></i> Sufragerii</a>
-                        </li>
-                        <li>
-                            <a href="mobila-tineret.html"><i class="fa fa-table fa-fw"></i> Mobila tineret</a>
-                        </li>
-                        <li>
-                            <a href="coltare-lutsch.html"><i class="fa fa-table fa-fw"></i> Coltare</a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Canapele<span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
-                                <li>
-                                    <a href="canapele-stofa.htm">Canapele din stofa</a>
-                                </li>
-                                <li>
-                                    <a href="fotolii.html">Fotolii</a>
-                                </li>
-                            </ul>
-                            <!-- /.nav-second-level -->
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Holuri<span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
-                                <li>
-                                    <a href="holuri-piele.htm">Holuri din piele</a>
-                                </li>
-                                <li>
-                                    <a href="holuri-lutsch.htm">Holuri din stofa</a>
-                                </li>
-                            </ul>
-                            <!-- /.nav-second-level -->
-                        </li>
-                        <li>
-                            <a href="garderoba-lutsch.html"><i class="fa fa-table fa-fw"></i> Garderobe</a>
-                        </li>
-                        <li>
-                            <a href="dulap-lutsch.html"><i class="fa fa-edit fa-fw"></i> Dulapuri</a>
-                        </li>
-                        <li>
-                            <a href="bucatarii-lutsch.html"><i class="fa fa-edit fa-fw"></i> Bucatarii</a>
-                        </li>
-                        <li>
-                            <a href="paturi-lutsch.html"><i class="fa fa-edit fa-fw"></i> Paturi</a>
-                        </li>
-                       <li>
-                            <a href="saltele-lutsch.html"><i class="fa fa-edit fa-fw"></i> Saltele</a>
-                        </li>
-                        <li>
-                            <a href="mese-masaj-lutsch.html"><i class="fa fa-edit fa-fw"></i> Mese de masaj</a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-wrench fa-fw"></i> Baie<span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
-                                <li>
-                                    <a href="mobilier-baie.html">Mobilier Baie</a>
-                                </li>
-                                <li>
-                                    <a href="cabine-dus.html">Cabine Dus</a>
-                                </li>
-                                <li>
-                                    <a href="cade-jacuzzi.html">Cade si Jacuzzi</a>
-                                </li>
-                            </ul>
-                            <!-- /.nav-second-level -->
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-sitemap fa-fw"></i> Mic mobilier<span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
-                                <li>
-                                    <a href="scaune.html">Scaune</a>
-                                </li>
-                                <li>
-                                    <a href="mese-lemn.html">Mese din lemn</a>
-                                </li>
-                                 <li>
-                                    <a href="masute-TV.html">Masute TV</a>
-                                </li>
-                                <li>
-                                    <a href="birouri.html">Birouri</a>
-                                </li>
-                                <li>
-                                    <a href="pantofare.html">Pantofare</a>
-                                </li>
-                            </ul>
-                            <!-- /.nav-second-level -->
-                        </li>
-                        <li>
-                            <a href="usi-interior.html"><i class="fa fa-edit fa-fw"></i> Usi de interior</a>
-                        </li>                        
-                        <li>
-                            <a href="garaje-lutsch.html"><i class="fa fa-edit fa-fw"></i> Garaje</a>
-                        </li>  
-                        <li>
-                            <a href="porti-garaj-lutsch.html"><i class="fa fa-edit fa-fw"></i> Porti de garaj</a>
-                        </li> 
-                       <li>
-                            <a href="mobilier-gradina.html"><i class="fa fa-edit fa-fw"></i> Mobilier de gradina</a>
-                        </li>
-                       <li>
-                            <a href="termopane-lutsch.html"><i class="fa fa-edit fa-fw"></i> Termopane</a>
-                        </li>                                                                         
-                        <li>
-                            <a href="oferte-speciale.htm"><i class="fa fa-files-o fa-fw"></i> Oferte speciale</a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- /.sidebar-collapse -->
-            </div>
-            <!-- /.navbar-static-side -->
-        </nav>
+<!-- include upper menu header and navigation -->
+<div id="head"></div>
 
         <div id="page-wrapper">
             <div class="row">
@@ -203,12 +44,12 @@
             <!-- /.row -->
             <div class="row">
                 <div class="col-lg-12">
-                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <div id="myCarouse2" class="carousel slide" data-ride="carousel">
                             <!-- Indicators -->
                             <ol class="carousel-indicators">
-                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#myCarousel" data-slide-to="1"></li>
-                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                            <li data-target="#myCarouse2" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarouse2" data-slide-to="1"></li>
+                            <li data-target="#myCarouse2" data-slide-to="2"></li>
                             </ol>
 
                             <!-- Wrapper for slides -->
@@ -227,11 +68,11 @@
                             </div>
 
                             <!-- Left and right controls -->
-                            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                            <a class="left carousel-control" href="#myCarouse2" data-slide="prev">
                             <span class="glyphicon glyphicon-chevron-left"></span>
                             <span class="sr-only">Previous</span>
                             </a>
-                            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                            <a class="right carousel-control" href="#myCarouse2" data-slide="next">
                             <span class="glyphicon glyphicon-chevron-right"></span>
                             <span class="sr-only">Next</span>
                             </a>
@@ -239,7 +80,7 @@
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
-            <!-- /.row -->
+            <!-- /.row  -->
             <div class="row">
                 <h2>Continuare pagina index.html cu imagini si text</h2>
                 <div class="col-lg-3 col-md-6">
@@ -334,35 +175,7 @@
             <!-- /.row -->
 
         </div>
-        <!-- /#page-wrapper -->
-        <footer>
-            <div class="container">
-            <ul class="nav navbar-bottom-links navbar-right">
-               <li><a href="https://www.facebook.com/MobilaLutsch/">Facebook <i class="fa fa-facebook-official"></i></a>       
-                </li>
-            </ul>
-            </div>
-        </footer>
-    </div>
-    <!-- /#wrapper -->
-
-    <!-- jQuery -->
-    <script src="../vendor/jquery/jquery.min.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Metis Menu Plugin JavaScript -->
-    <script src="../vendor/metisMenu/metisMenu.min.js"></script>
-
-    <!-- Morris Charts JavaScript -->
-    <script src="../vendor/raphael/raphael.min.js"></script>
-    <script src="../vendor/morrisjs/morris.min.js"></script>
-    <script src="../data/morris-data.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="../dist/js/sb-admin-2.js"></script>
-
+        <!-- / end page wrapper -->
+<div id="foot"></div>
 </body>
-
 </html>
