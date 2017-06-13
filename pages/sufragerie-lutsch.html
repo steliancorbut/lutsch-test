@@ -148,12 +148,19 @@
             </div>
         </div>
     </div> <!-- /.row -->
-
-
-
-
 </div> <!-- / end page wrapper -->
         
 <div id="foot"></div>
+<script>
+$(document).ready(function() {
+    var imgs = $("#page-wrapper").find("img.img-responsive");
+    var h = 450;
+    for(var i = 0; i < imgs.length; i++) {
+        var img = $(imgs[i]);
+        img.height(h);
+    }
+
+});
+</script>
 </body>
 </html>
