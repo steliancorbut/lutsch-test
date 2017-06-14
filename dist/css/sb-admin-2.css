@@ -121,7 +121,7 @@ body {
   transition: all .5s;
 }
 .btn-primary.btn-outline {
-  color: #056ae6;
+  color: #337ab7;
 }
 .btn-success.btn-outline {
   color: #5cb85c;
@@ -204,7 +204,7 @@ body {
   margin: 15px 0;
 }
 .huge {
-  font-size: 40px;
+  font-size: 30px;
 }
 .panel-green {
   border-color: #5cb85c;
@@ -249,6 +249,24 @@ body {
   color: #df8a13;
 }
 .navbar-inverse {
-  background-color: #056ae6;
-  border-color: #056ae6;
+  background-color: #337ab7;
+  border-color: #337ab7;
+}
+/* --- Map --- */
+.map {
+  position: relative;
+  margin-top: 5px;
+  margin-bottom: 40px;
+}
+.map iframe {
+  width: 100%;
+  height: 450px;
+  border: none;
+}
+.map-grid iframe {
+  width: 100%;
+  height: 350px;
+  border: none;
+  margin: 0 0 -5px 0;
+  padding: 0;
 }
